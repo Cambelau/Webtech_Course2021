@@ -1,0 +1,9 @@
+.popup-content.popup-content {
+   background-color: rgba(0.0.0.0);
+   border: 0;
+   display: flex;
+}
+
+.popup-overlay.popup-overlay {
+  background: rgba(0, 0, 0, 0.6);
+}

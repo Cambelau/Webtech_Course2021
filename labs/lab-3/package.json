@@ -1,0 +1,45 @@
+{
+  "name": "webtech-back-end",
+  "version": "0.0.0",
+  "description": "WebTech demo lab",
+  "author": "david worms <david@adaltas.com>",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "level": "^6.0.1",
+    "mixme": "^0.3.5",
+    "uuid": "^8.3.0"
+  },
+  "devDependencies": {
+    "mocha": "^8.1.3",
+    "should": "^13.2.3",
+    "supertest": "^4.0.2"
+  },
+  "keywords": [
+    "tech",
+    "ece",
+    "nodejs"
+  ],
+  "license": "MIT",
+  "main": "./lib/index.js",
+  "mocha": {
+    "throw-deprecation": true,
+    "require": [
+      "should"
+    ],
+    "inline-diffs": true,
+    "reporter": "spec",
+    "recursive": true
+  },
+  "scripts": {
+<<<<<<< HEAD
+    "test": "mocha 'test/**/*.js'",
+    "develop": "./node_modules/.bin/nodemon ./bin/start"
+=======
+    "reset": "bin/reset",
+    "develop": "bin/init && bin/start",
+    "start": "bin/start",
+    "test": "mocha 'test/**/*.js'"
+>>>>>>> 66d42564c839e740e0ca874299ca9a6d50b8ee7a
+  }
+}

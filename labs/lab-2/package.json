@@ -1,0 +1,17 @@
+{
+  "name": "webtech-back-end",
+  "version": "0.0.0",
+  "main": "bin/start.js",
+  "license": "MIT",
+  "author": "",
+  "description": "",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.13"
+  },
+  "scripts": {
+    "start": "node ./bin/start.js",
+    "develop": "./node_modules/.bin/nodemon ./bin/start.js"
+  }
+}

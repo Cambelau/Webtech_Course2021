@@ -1,0 +1,12 @@
+/*  src/Header.css  */
+Header {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  padding: 1em;
+  margin-bottom: 2em;
+  background-color: rgba(192, 145, 26,0.5);
+  color: #fff;
+}
