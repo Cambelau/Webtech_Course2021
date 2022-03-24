@@ -6,7 +6,7 @@
 
 Courses lab of web-tech at ECE 2021-2022
 
-From [Adaltas Course](https://github.com/adaltas/ece-webtech-2021-fall/)
+From [Adaltas Course](https://github.com/Cambelau/ece-webtech-2021-fall)
 
 ## Project :
 > [Project Webtech 2021](/project)
